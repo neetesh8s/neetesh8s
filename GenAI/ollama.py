@@ -1,15 +1,15 @@
-# from ollama import Client
+from ollama import Client
 
-# client = Client(host="http://localhost:11434")
+client = Client(host="http://localhost:11434")
 
-# response = client.chat(
-#     model="llama3.2",
-#     messages=[
-#         {
-#             "role": "user",
-#             "content": "What is FastAPI?"
-#         }
-#     ]
-# )
+response = client.chat(
+    model="llama3.2",
+    messages=[
+        {
+            "role": "user",
+            "content": "What is FastAPI?"
+        }
+    ]
+)
 
-# print(response["message"]["content"])
+print(response["message"]["content"])
