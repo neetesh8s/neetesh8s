@@ -1,0 +1,11 @@
+name = ["Shiva", "Vishnu", "Brahma"]
+print (name[1])
+print (name[0])
+print (name[2])
+name.append("test")
+print (name)
+name.insert(1,"Divit")
+print (name)
+print(name[1])
+name.remove(name[4])
+print(name)
